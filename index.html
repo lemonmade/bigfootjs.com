@@ -1,0 +1,497 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bigfoot.js</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/wpc5dha.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+
+	<body>
+        <div class="bigfoot-project full-project-container">
+            
+
+            <div class="bigfoot-project project-wrapper">
+            	<div class="header-demo-hide">
+                    <section id="project" class="bigfoot-active project-bigfoot center-wrap">
+    					<h1><div>bigfoot.js</div></h1>
+    	            	<p>A jQuery plugin for empowering footnotes<a href="#fn1" id="fn1-return"><sup>1</sup></a></p>
+    					<div class="project-action-buttons">
+    	                    <div class="action-button">
+                                <a href="download/bigfoot.zip" class="download-button" alt="download">download<span></span></a>
+                                <span class="button-shadow">
+                            </div><!--
+    	                    --><div class="action-button">
+                                <a href="http://github.com/pxldot/bigfoot" class="github-button" alt="github repo"></span>github<span></span></a>
+                                <span class="button-shadow">
+                            </div><!--
+                            --><div class="action-button">
+                                <a href="#demo" class="demo-button" alt="demo"></span>demo<span></span></a>
+                                <span class="button-shadow">
+                            </div>
+    	                </div>
+            	   </section>
+                </div>
+
+            	<nav class="page-nav inactive">
+            		<ul>
+            			<li><a href="#project"><span>start</span></a></li><!--
+                        --><li><a href="#demo"><span>demo</span></a></li><!--
+                        --><li><a href="#styles"><span>styles</span></a></li><!--
+            			--><li><a href="#intro"><span>intro</span></a></li><!--
+            			--><li><a href="#usage"><span>usage</span></a></li><!--
+            			--><li><a href="#options"><span>options</span></a></li><!--
+                        --><li><a href="#methods"><span>methods</span></a></li><!--
+            			--><li><a href="#license"><span>license</span></a></li><!--
+                        --><li><a href="#donate"><span>donate</span></a></li>
+            		</ul>
+                    <a href="#" class="page-nav-toggle changey-nav"><span></span></a>
+            	</nav>
+
+            	<div class="demo-container">
+                    <section id="demo" class="center-wrap">
+                        <div class="project-action-buttons demo-action-buttons">
+                            <div class="action-button demo-back-button">
+                                <a href="#" alt="back to project page">back</a>
+                                <span class="button-shadow"></span>
+                            </div><!--
+                            --><div class="javascript-switch button-switch">
+                                <div class="action-button">
+                                    <a href="#" alt="toggle javascript on">on</a>
+                                    <span class="button-shadow"></span>
+                                </div><!--
+                                --><div class="action-button">
+                                    <a href="#" alt="toggle javascript off" class="active">off</a>
+                                    <span class="button-shadow"></span>
+                                </div>
+                                <h4>javascript</h4>
+                            </div>
+                        </div>
+
+                        <div class="demo-device"><div class="demo-device-ratiometer">
+                            <div class="demo-device-content-wrap">
+                                <div class="demo-device-bigfoot"></div>
+
+                                <iframe class="demo-device-content" src="/demo" frameborder="0"></iframe>
+
+                                <div class="demo-device-content active">
+                                    <div class="demo-contents">
+  <h5>Solitude and Leadership</h5>
+  <p>Like the manager<a href="#fn:1" id="fnref:1">1</a>, the head of my department had no genius for organizing or initiative or even order, no particular learning or intelligence, no distinguishing characteristics at all. Just the ability to keep the routine going, and beyond that, as Marlow says, her position had come to her &mdash; why?</p>
+  <p>It means gathering yourself together into a single point rather than letting yourself be dispersed everywhere into a cloud of electronic and social input. It seems to me that Facebook and Twitter and YouTube<a href="#fn:2" id="fnref:2">2</a> are all ultimately just an elaborate excuse to run away from yourself. To avoid the difficult and troubling questions that being human throws in your way. Am I doing the right thing with my life? Do I believe the things I was taught as a child? What do the words I live by—words like duty, honor, and country—really mean? Am I happy?</p>
+  <div class="footnotes">
+      <hr>
+      <ol>
+          <li class="footnote" id="fn:1"><p>
+              &mdash; and I’m sorry to say this, but like so many people you will meet as you negotiate the bureaucracy of the Army or for that matter of whatever institution you end up giving your talents to after the Army, whether it’s Microsoft or the World Bank or whatever &mdash; <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+          </p></li>
+          <li class="footnote" id="fn:2"><p>
+              And just so you don’t think this is a generational thing, TV and radio and magazines and even newspapers, too. <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+          </p></li>
+      </ol>
+  </div>
+</div>
+
+                                </div>
+                            </div>
+                        </div></div>
+
+                        <div class="current-style active">
+                            <a href="download/bigfoot-default.zip" class="download-link">download</a>
+                            <p class="requires-bottom-option">Note: this style requires the <code>positionContent</code> option to be set to <code class="required-setting">true</code> when running the script.</p>
+                        </div>
+                    </section>
+
+                    <section id="styles" class="center-wrap">
+                        <h2>Styles</h2>
+                        <p>The Default style shown below comes with the script by default, but I figured I'd throw together a few more example styles to show off the kind of variety you can build into the button/ popover combination.</p>
+                        <div class="style-options">
+                            <div class="style-button try-one">Try One! &rarr;</div><!--
+                            --><div class="style-button default-style" data-footnote-style="default" data-download-link="download/bigfoot-default.zip"><a href="#">Default</a><span></span></div><!--
+                            --><div class="style-button default-style" data-footnote-style="bottom" data-download-link="download/bigfoot-bottom.zip" data-requires-no-position="true"><a href="#">Bottom</a><span></span></div><!--
+                            --><div class="style-button numeric-style" data-footnote-style="numeric" data-download-link="download/bigfoot-number.zip"><a href="#">Numeric</a><span></span></div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <section id="intro" class="center-wrap bigfoot-active project-bigfoot demo-hide">
+                    <h2>Introduction</h2>
+                    <p>Footnotes on the web are a <strong>pain in the ass</strong>. You click on a tiny number, get transported somewhere near the bottom of the page, find the footnote you were looking for, and click on a link to go back to where you were on the page<a href="#fn4" id="fn4-return"><sup>4</sup></a>.</p>
+                    <p>This script looks to make that whole process painless. It automatically detects the footnote link and content<a href="#fn5" id="fn5-return"><sup>5</sup></a>, turns the link into an easy-to-click button, and puts up a popover when the reader clicks on the footnote button.</p>
+                    <p>The script and default styles are built to work great on any size viewport; the popover will be positioned on the top/ bottom automatically (based on the relative amount of space), will update its location as the viewport changes size, and will ensure that the popover never scrolls offscreen. All of that adds up to a much-improved user experience.</p>
+                </section>
+
+            	<section id="usage" class="center-wrap bigfoot-active project-bigfoot demo-hide">
+            		<h2>Usage</h2>
+            		<p>The script will work with a wide array of markup, but you will need to make sure that your footnote content/ link markup at least resembles the markup shown below<a href="#fn2" id="fn2-return"><sup>2</sup></a>:</p>
+
+					<div class="file-header-toggle-group">
+						<h4 class="file-header active">link</h4><!--
+						--><h4 class="file-header inactive">content</h4>
+
+<pre class="active"><code><span class="tag">&lt;p&gt;
+    &lt;sup </span>id=<span class="string">"fnref:1"</span><span class="tag">&gt;
+        &lt;a </span>href=<span class="string">"#fn:1"</span> rel=<span class="string">"footnote"</span><span class="tag">&gt;</span><span class="function">1</span><span class="tag">&lt;/a&gt;
+    &lt;/sup&gt;
+&lt;/p&gt;</span></code></pre>
+
+<pre class="inactive"><code><span class="tag">&lt;div </span>class=<span class="string">"footnotes"</span><span class="tag">&gt;&lt;ol&gt;
+    &lt;li </span>class=<span class="string">"footnote"</span> id=<span class="string">"fn:1"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;p&gt;</span><span class="function">footnote.</span><span class="tag">&lt;a </span>href=<span class="string">"#fnref:1"</span> title=<span class="string">"return to article"</span><span class="tag">&gt;</span><span class="function">&#160;&#8617;</span><span class="tag">&lt;/a&gt;&lt;p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</span></code></pre>
+					</div>
+
+            		<p>Once you've set up the appropriate markup, adding <code>bigfoot.js</code> to your webpages is easy. By default, all you need to do is include the following anywhere on the page:</p>
+
+            		<h4 class="file-header">index.html</h4>
+
+<pre><code><span class="tag">&lt;script</span> type=<span class="string">"text/javascript"</span> src=<span class="string">"js/jquery-1.8.3.min.js"</span><span class="tag">&gt;</span><span class="tag"><span class="tag">&lt;/script&gt;</span></span>
+<span class="tag">&lt;script</span> type=<span class="string">"text/javascript"</span> src=<span class="string">"js/bigfoot.js"</span><span class="tag">&gt;</span><span class="tag"><span class="tag">&lt;/script&gt;</span></span>
+<span class="tag">&lt;script</span> type=<span class="string">"text/javascript"</span><span class="tag">&gt;</span>
+    <span class="function">$.bigfoot</span>();
+<span class="tag"><span class="tag">&lt;/script&gt;</span></span></code></pre>
+
+                    <p>You can also configure the available options by passing an object literal<a href="#fn3" id="fn3-return"><sup>3</sup></a>, and you can store the return object to make use of some of the <a href="#methods">methods</a> it makes available:</p>
+
+                    <h4 class="file-header">index.html</h4>
+
+<pre><code><span class="tag">&lt;script</span> type=<span class="string">"text/javascript"</span><span class="tag">&gt;</span>
+    <span class="function">var</span> bigfoot = <span class="function">$.bigfoot</span>(
+        {
+            deleteOnUnhover: <span class="boolean">false</span>,
+            preventPageScroll: <span class="boolean">false</span>,
+            hoverDelay: <span class="integer">250</span>
+        }
+    );
+<span class="tag"><span class="tag">&lt;/script&gt;</span></span></code></pre>
+
+					<p>You'll also want to include styles for the button and popovers, a number of which come with the script (for details, see the <a href="#styles">Styles</a> section). Copy or import the code in the provided stylesheets into your own stylesheets (both <code>css</code> and <code>scss</code> versions are included) and you should be good to go.</p>
+
+            	</section>
+
+            	<section id="options" class="demo-hide bigfoot-active project-bigfoot demo-hide">
+            		<div class="center-wrap">
+	            		<h2>Options</h2>
+
+                        <div class="option-wrapper">
+                            <h3><code>actionOriginalFN</code></h3>
+                            <p>Determines what action will be taken on the original footnote markup: <code>hide</code> (using <code>display: none;</code>), <code>delete</code>, or <code>ignore</code> (leaves the original content in place). This action will also be taken on any elements containing the footnote if they are now empty.</p>
+                            <p class="default-option-value"><code>default: <span class="string">"hide"</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>activateCallback</code></h3>
+                            <p>Specifies a function to call on a footnote popover that is being instantiated (before it is added to the DOM). The function will be passed two arguments: <code>$popover</code>, which is a jQuery object containing the new popover element, and <code>$button</code>, the button that was clicked to instantiate the popover. This option can be useful for adding additional classes or styling information before a popover appears.</p>
+                            <p class="default-option-value"><code>default: <span class="function">function(){}</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>activateOnHover</code></h3>
+                            <p>Specifies whether or not the footnote content will be activated when the associated button is hovered over.</p>
+                            <p class="default-option-value"><code>default: <span class="boolean">false</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>allowMultipleFN</code></h3>
+                            <p>Specifies whether or not multiple footnote popovers can be active simultaneously.</p>
+                            <p class="default-option-value"><code>default: <span class="boolean">false</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>anchorPattern</code></h3>
+                            <p>Specifies the pattern that must be matched by the anchor element's <code>href</code> attribute for it to be considered a footnote link. This is used in filtering all links down to just those with a footnote.</p>
+                            <p class="default-option-value"><code>default: <span class="string">/(fn|footnote|note)[:\-_\d]/gi</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>anchorParentTagname</code></h3>
+                            <p>The tagname of the (possible) parent of the footnote link. This is really only necessary when you want to also get rid of that element — for instance, when the link is inside a <code>sup</code> tag. This tag and the link itself will be joined together for attribute from which you can drawn in your markup for footnotes/ buttons.</p>
+                            <p class="default-option-value"><code>default: <span class="string">"sup"</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>appendPopoversTo</code></h3>
+                            <p>Determines where the footnote popover element will be placed in the DOM. If the option is any <em>falsy</em> value, the element will be appended to the nearest block-level element relative to the position of the footnote button that was activated. Otherwise, the element will be appended to the (string) selector you provided<a href="#fn9" id="fn9-return"><sup>9</sup></a>.</p>
+                            <p class="default-option-value"><code>default: <span class="string">undefined</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>breakpoints</code></h3>
+                            <p>An object containing information about breakpoints specified for your set of popovers. These breakpoints should be manipulated only by using the <code>bigfoot.addBreakpoint()</code> and <code>bigfoot.removeBreakpoint()</code> methods discussed in the <a href="#methods">methods section</a>.</p>
+                            <p class="default-option-value"><code>default: <span class="function">{}</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>deleteOnUnhover</code></h3>
+                            <p>Determines whether footnotes that were instantiated by hovering over the footnote button are removed once the footnote button/ footnote popover is un-hovered.</p>
+                            <p class="default-option-value"><code>default: <span class="boolean">false</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>footnoteParentClass</code></h3>
+                            <p>The class name for the containing element of the original footnote content. Typically, this will be a class on an <code>li</code> that contained the footnote. This element may be removed/ hidden, depending on the option specified for <code>actionOriginalFN</code>. This string does not have to be an exact match — the class names will simply be tested for whether they include this string.</p>
+                            <p class="default-option-value"><code>default: <span class="string">"footnote"</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>footnoteTagname</code></h3>
+                            <p>The element that contains the footnote content. As noted above, this element may be hidden or deleted, and will be given the <code>footnote-processed</code> class once Bigfoot has finished with it.</p>
+                            <p class="default-option-value"><code>default: <span class="string">"li"</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>hoverDelay</code></h3>
+                            <p>If <code>deleteOnUnhover</code> is <code>true</code>, this specifies the amount of time (in milliseconds) that must pass after the footnote button/ content is un-hovered before the footnote is removed.</p>
+                            <p class="default-option-value"><code>default: <span class="integer">250</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>numberResetSelector</code></h3>
+                            <p>A string representing the selector at which you would like the numbering of footnotes to restart to 1. For example, you may be using the numbered style of footnote and wish to have the numbers restart for each <code>&lt;article&gt;</code> on your main page with a class of <code>"article-container"</code>. In this case, you would set this option to <code>"article.article-container"</code> (or an equivalent CSS selector). Leaving the option as undefined will simply number all footnotes on a given page sequentially.</p>
+                            <p class="default-option-value"><code>default: <span class="string">undefined</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>popoverDeleteDelay</code></h3>
+                            <p>When the footnote content is being removed this option specifes how long after the <code>active</code> class is removed from the footnote before the element is actually removed from the DOM<a href="#fn6" id="fn6-return"><sup>6</sup></a>.</p>
+                            <p class="default-option-value"><code>default: <span class="integer">500</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>popoverCreateDelay</code></h3>
+                            <p>Sets a delay between the activation of the footnote button and the activation of the actual footnote content.</p>
+                            <p class="default-option-value"><code>default: <span class="integer">100</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>positionContent</code></h3>
+                            <p>Specifies whether or not the footnote popovers (and the popover tooltip, if it is included in the markup) should be positioned by the script.</p>
+                            <p>If this option is <code>true</code>, the popover top of the footnote popover<a href="#fn7" id="fn7-return"><sup>7</sup></a> will be positioned at the middle (vertically) of the footnote button, while the left of the popover will be placed a distance from the (horizontal) middle of the button proportional to the footnote button's horizontal position in the window.</p>
+                            <p class="default-option-value"><code>default: <span class="boolean">true</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>preventPageScroll</code></h3>
+                            <p>Determines whether or not, when scrolling past the end of a footnote whose content is taller than the vertical space available, the scroll event will propagate to the window itself.</p>
+                            <p class="default-option-value"><code>default: <span class="boolean">true</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>scope</code></h3>
+                            <p>If any truthy value is provided, only the footnotes within the scope you define will be affected by the script. The scope should be a selector string, as you would typically use in jQuery. For example, setting a scope of <code>".bigfoot-active"</code> would work only on those elements with an ancestor that has a class of <code>bigfoot-active</code>.</p>
+                            <p class="default-option-value"><code>default: <span class="string">undefined</span></code></p>
+                        </div>
+
+                        <div class="option-wrapper">
+                            <h3><code>useFootnoteOnlyOnce</code></h3>
+                            <p>Determines whether or not a footnote can be used as the content for multiple footnote buttons. Many content management systems will, on a blog's main page, load every article chronologically without any adjustments to the article markup. This can cause issues if multiple footnotes have the same ID: the footnote content is identified by the fragment identifier in the <code>href</code> attribute of the footnote link, so multiple identical IDs can result in the same footnote content being used for different footnote links. This option prevents this by using a footnote as the content for at most one footnote button.</p>
+                            <p class="default-option-value"><code>default: <span class="boolean">true</span></code></p>
+                        </div>
+
+
+                        <div class="option-wrapper">
+                            <h3><code>contentMarkup</code></h3>
+                            <p>A string representation of the markup of the footnote content popovers. It's best not to change this too much; the script relies on the class names and hierarchy of the default markup to do its work. However, you can add information to the rendered markup by adding string literals or one or more of the following variables:</p>
+                            <ul>
+                                <li>
+                                    <p><code>{{FOOTNOTENUM}}</code>: inserts the footnote number (sequential ordering of all footnotes within an element matching the <code>numberResetSelector</code> option).</p>
+                                </li>
+                                <li>
+                                    <p><code>{{FOOTNOTEID}}</code>: inserts the footnote identifier (sequential ordering of all footnotes on the page, starting from 1).</p>
+                                </li>
+                                <li>
+                                    <p><code>{{FOOTNOTECONTENT}}</code>: inserts the html markup of the original footnote with all relevant characters escaped.</p>
+                                </li>
+                                <li>
+                                    <p><code>{{BUTTON:attr}}</code>: inserts the attribute of the associated footnote button attribute (<code>attr</code>). For example, <code>{{BUTTON:id}}</code> will insert the <code>id</code> of the footnote button that instantiated the popover.</p>
+                                </li>
+                            </ul>
+
+                            <h4 class="file-header">default</h4>
+
+<pre><code><span class="tag">&lt;aside</span> class=<span class="string">"bigfoot-footnote is-positioned-bottom"</span>
+  data-footnote-number=<span class="string">"<span class="function">{{FOOTNOTENUM}}</span>"</span>
+  data-footnote-identifier=<span class="string">"<span class="function">{{FOOTNOTEID}}</span>"</span>
+  alt=<span class="string">"Footnote <span class="function">{{FOOTNOTENUM}}</span>"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;div</span> class=<span class="string">"bigfoot-footnote__wrapper"</span><span class="tag">&gt;</span>
+      <span class="tag">&lt;div</span> class=<span class="string">"bigfoot-footnote__content"</span><span class="tag">&gt;</span>
+        <span class="function">{{FOOTNOTECONTENT}}</span>
+      <span class="tag">&lt;/div&gt;</span>
+    <span class="tag">&lt;/div&gt;</span>
+    <span class="tag">&lt;div</span> class=<span class="string">"bigfoot-footnote__tooltip"</span><span class="tag">&gt;</span><span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;/aside&gt;</span></code></pre>
+                        </div>
+
+
+
+                        <div class="option-wrapper">
+                            <h3><code>buttonMarkup</code></h3>
+                            <p>A string representation of the markup of the footnote button. Again, try not to remove any elements from the markup, but add as much as you like. In addition to the first two variables shown in <code>contentMarkup</code>, the following variables are available:</p>
+
+                            <ul>
+                                <li>
+                                    <p><code>{{SUP:attr}}</code>: Inserts the attribute from the superscript/ anchor tag pair that formed the original footnote link.</p>
+                                </li>
+                                <li>
+                                    <p><code>{{FN:attr}}</code>: inserts the attribute from the original footnote container element.</p>
+                                </li>
+                            </ul>
+
+                            <h4 class="file-header">default</h4>
+
+<pre><code><span class="tag">&lt;div</span> class=<span class="string">"bigfoot-footnote__container"</span><span class="tag">&gt;</span>
+  <span class="tag">&lt;button</span> href=<span class="string">"#"</span> class=<span class="string">"bigfoot-footnote__button"</span> rel=<span class="string">"footnote"</span>
+     id=<span class="string">"<span class="function">{{SUP:data-footnote-backlink-ref}}</span>"</span>
+     data-footnote-number=<span class="string">"<span class="function">{{FOOTNOTENUM}}</span>"</span>
+     data-footnote-identifier=<span class="string">"<span class="function">{{FOOTNOTEID}}</span>"</span>
+     alt=<span class="string">"See Footnote <span class="function">{{FOOTNOTENUM}}</span>"</span>
+     data-footnote-content=<span class="string">"<span class="function">{{FOOTNOTECONTENT}}</span>"</span><span class="tag">&gt;</span>
+
+     <span class="tag">&lt;svg</span> class=<span class="string">"bigfoot-footnote__button__circle"</span> viewbox=<span class="string">"0 0 6 6"</span> preserveAspectRatio=<span class="string">"xMinYMin"</span><span class="tag">&gt;</span><span class="tag">&lt;circle</span> r=<span class="string">"3"</span> cx=<span class="string">"3"</span> cy=<span class="string">"3"</span> fill=<span class="string">"white"</span><span class="tag">&gt;</span><span class="tag">&lt;/circle&gt;</span><span class="tag">&lt;/svg&gt;</span>
+     <span class="tag">&lt;svg</span> class=<span class="string">"bigfoot-footnote__button__circle"</span> viewbox=<span class="string">"0 0 6 6"</span> preserveAspectRatio=<span class="string">"xMinYMin"</span><span class="tag">&gt;</span><span class="tag">&lt;circle</span> r=<span class="string">"3"</span> cx=<span class="string">"3"</span> cy=<span class="string">"3"</span> fill=<span class="string">"white"</span><span class="tag">&gt;</span><span class="tag">&lt;/circle&gt;</span><span class="tag">&lt;/svg&gt;</span>
+     <span class="tag">&lt;svg</span> class=<span class="string">"bigfoot-footnote__button__circle"</span> viewbox=<span class="string">"0 0 6 6"</span> preserveAspectRatio=<span class="string">"xMinYMin"</span><span class="tag">&gt;</span><span class="tag">&lt;circle</span> r=<span class="string">"3"</span> cx=<span class="string">"3"</span> cy=<span class="string">"3"</span> fill=<span class="string">"white"</span><span class="tag">&gt;</span><span class="tag">&lt;/circle&gt;</span><span class="tag">&lt;/svg&gt;</span>
+     
+  <span class="tag">&lt;/button&gt;</span>
+<span class="tag">&lt;/div&gt;</span></code></pre>
+
+                        </div>
+
+                    </div>
+
+            	</section>
+
+                <section id="methods" class="center-wrap demo-hide">
+                    <h2>Methods</h2>
+                    <p>Running the function will return an object that can be stored and used to manipulate the footnote buttons/ content. The following methods are available in this return object:</p>
+
+                    <div class="option-wrapper">
+                        <h3><code>close(<span class="optional-parameter">[footnotes, timeout]</span>)</code></h3>
+                        <p>This function will close any footnote popovers matching the (string) selector provided for <code>footnotes</code>. <code>timeout</code> specifies the amount of time after the footnote's <code>active</code> class is removed before the element itself is removed. Either of these can be excluded; <code>footnotes</code> will default to all active footnotes, while timeout will default to the <code>popoverDeleteDelay</code> option.</p>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <h3><code>activate(<span class="optional-parameter">[button]</span>)</code></h3>
+                        <p>This will activate the footnote button (and its associated popover) matching the (string) selector provided for <code>button</code>. If the option to allow multiple footnotes is <code>false</code>, only the first matching footnote will be activated. By default, the first footnote button on the page will be activated.</p>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <h3><code>addBreakpoint(size, <span class="optional-parameter">[deleteDelay, removeOpen, trueCallback, falseCallback]</span>)</code></h3>
+                        <p>This method creates a breakpoint at which time a function is to be run. The most common use for this is to change the footnotes from being positioned by the script to being bottom-fixed to the page (as is the case for this page). As such, the function is meant to make this particular use case as simple as possible.</p>
+                        <p>Only the <code>size</code> parameter is required. You can pass it <code>"iPhone"</code> or <code>"iPad"</code> for those devices' pixel values, a simple string, like <code>"&lt;2em"</code>, a string representing a valid media query, like <code>"(min-width: 300px)"</code>, or a pre-created <code>MediaQueryList</code> object.</p>
+                        <p><code>deleteDelay</code> determines how long (in milliseconds, as an integer) should be waited after removing an active popover on a breakpoint before reopening that footnote, and will default to the <code>popoverDeleteDelay</code> option value. <code>removeOpen</code> (boolean) specifies whether this removal should be performed at all. The final two arguments are the callbacks to run when the media query changes to matching and non-matching status, respectively. These callbacks will be passed the <code>removeOpen</code> parameter and a copy of the <code>bigfoot</code> object (for further footnote manipulation). The defaults will simply change the <code>activateCallback</code> option to a function that adds the <code>fixed-bottom</code> class to all footnote popovers.</p>
+                        <p>The method will return an object specifying whether the breakpoint was added, the <code>MediaQueryList</code> object that was created, and the function that was attached as a listener to the media query.</p>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <h3><code>removeBreakpoint(target<span class="optional-parameter">[, callback]</span>)</code></h3>
+                        <p>This function will remove the specified breakpoint. Breakpoints are identified by the <code>target</code> parameter, which can be either the string with which the breakpoint was initially created, or the <code>MediaQueryList</code> object returned as part of the <code>addBreakpoint</code> function.</p>
+                        <p>Optionally, you can provide a callback to execute before the breakpoint is removed. If no callback is provided, the method will run the false callback function from when the breakpoint was initially created.</p>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <h3><code>reposition()</code></h3>
+                        <p>This function repositions all footnotes relative to their button.</p>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <h3><code>getSetting(setting)</code></h3>
+                        <p>Returns the script setting matching the string provided for <code>setting</code>, if such a setting exists.</p>
+                    </div>
+
+                    <div class="option-wrapper">
+                        <h3><code>updateSetting(setting<span class="optional-parameter">[, newValue]</span>)</code></h3>
+                        <p>Updates the script setting matching the string provided for <code>setting</code> with <code>newValue</code>, or adds the option if none exists. In either case, the old value for the setting will be returned.</p>
+                        <p>Alternatively, you can pass in an object of option-new value pairs. In this case, an object of option-old value pairs will be returned.</p>
+                    </div>
+                </section>
+
+            	<section id="license" class="center-wrap demo-hide">
+            		<h2>License</h2>
+            		<p>This script is provided under the <a href="http://choosealicense.com/licenses/mit/">MIT License</a>. In a nutshell, that means you can do whatever you like with the code and distribute the derivatives however you see fit. I'd love a little attribution if this script plays a major role in whatever derivative you end up creating, but I won't lose any sleep if you don't.</p>
+            	</section>
+
+                <section id="donate" class="center-wrap demo-hide">
+                    <h2>Donate</h2>
+                    <p>If you like what I've done here, you can throw a few bucks my way <a href="https://www.paypal.com/ca/cgi-bin/webscr?cmd=_flow&SESSION=GldCDawyBw8a3WiU_ytaCi3qWlP3o243M58SgZE9xz49Pp4cB58YURZhkTO&dispatch=5885d80a13c0db1f8e263663d3faee8def8934b92a630e40b7fef61ab7e9fe63">here</a>. No pressure, though.</p>
+                </section>
+
+            	<section id="footnotes" class="demo-hide">
+            		<ul>
+            			<li id="fn1">
+                            <p>Inspired by <a href="http://instapaper.com">Instapaper</a>. Built for mobile devices and responsive designs. <a href="#fn1-return">back</a></p>
+                        </li>
+                        <li id="fn2">
+                            <p>Strangely enough, there doesn't appear to be a standard for footnote markup. I went with the closest I could find: the <a href="http://fletcherpenney.net/multimarkdown/">MultiMarkdown</a> output format. The algorithm for identifying footnote link/ content pairs works for most of the major blogs I tried it on without any HTML adjustments.</p>
+                            <p>The script will place the footnote directly after the nearest block-level element and will remove the <code>li</code> tags when creating the footnote popovers. So, if you want the styles applied to normal paragraphs to apply to the footnote contents, you'll have to wrap them in a <code>p</code> tag in the original footnote markup. <a href="#fn2-return">back</a></p>
+                        </li>
+                        <li id="fn3">
+                            <p>You can learn about all of the configurable options in the <a href="#options">Options</a> section. <a href="#fn3-return">back</a></p>
+                        </li>
+                        <li id="fn4">
+                            <p>If the author had the foresight to include such a link; otherwise, you're on your own to get back to the spot in the article where you left off. <a href="#fn4-return">back</a></p>
+                        </li>
+                        <li id="fn5">
+                            <p>The script will try to be as smart as possible when determining what is meant to be a footnote. However, if you're looking for good markup for your footnotes, you can find an example in the <a href="#usage">usage</a> section below. <a href="#fn5-return">back</a></p>
+                        </li>
+                        <li id="fn6">
+                            <p>This leaves time for any transitions you would like to perform on the footnote as it is being deactivated. <a href="#fn6-return">back</a></p>
+                        </li>
+                        <li id="fn7">
+                            <p>Or the top of the popover, if there is not enough space to position the popover on the bottom <em>and</em> there is more room on top of the footnote button than there is on the bottom. <a href="#fn7-return">back</a></p>
+                        </li>
+                        <li id="fn8">
+                            <p>This is the full version of the script, including comments and other information. It's here for folks who want to see where everything comes from. For production use, make sure to include the minimized version. <a href="#fn8-return">back</a></p>
+                        </li>
+                        <li id="fn9">
+                            <p>For example, setting this option to <code>"body"</code> will append all footnotes to the body element. This may be hepful when complex styles from elsewhere in your stylesheet are overriding the popover styles you have selected. <a href="#fn9-return">back</a></p>
+                        </li>
+                        <li id="fn10">
+                            <p>This is a minified version of the script (all whitespace and comments removed to minimize file size). <a href="#fn10-return">back</a></p>
+                        </li>
+                        <li id="fn11">
+                            <p>This contains the default styling for the footnote button and popovers as a ready-to-go <code>css</code> file. If you don't use SASS or don't plan on changing the default styles, this is the file to import/ copy into your existing stylesheet. <a href="#fn11-return">back</a></p>
+                        </li>
+                        <li id="fn12">
+                            <p>This file contains the default styles written in SASS. It is commented in detail and provides numerous variables with which you can easily change the styles I have chosen. Anyone looking to create a custom button/ popover style would probably want to start with this as a template. <a href="#fn12-return">back</a></p>
+                        </li>
+            		</ul>
+            	</section>
+
+
+            	<footer class="light-on-dark">
+	<div class="center-wrap">
+		<ul>
+			<li><a href="http://pxldot.com">Writing</a></li>
+			<li><a href="http://www.lemondesign.co">Labs</a></li>
+		</ul>
+		<ul>
+			<li><a href="http://twitter.com/_lemonmade">Twitter</a></li>
+			<li><a href="http://github.com/lemonmade">Github</a></li>
+		</ul>
+	</div>
+</footer>
+
+
+            </div>
+        </div>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-41414707-1', 'cmsauve.com');
+            ga('send', 'pageview');
+
+        </script>
+
+        <div class="demo-footnote-container"></div>
+        <div class="download-footnote-container project-bigfoot"></div>
+    </body>
+</html>
